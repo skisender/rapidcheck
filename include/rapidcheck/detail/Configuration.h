@@ -54,7 +54,7 @@ std::string configToString(const Configuration &config);
 std::string configToMinimalString(const Configuration &config);
 
 /// Returns the global configuration.
-const Configuration &configuration();
+Configuration &configuration();
 
 } // namespace detail
 } // namespace rc
